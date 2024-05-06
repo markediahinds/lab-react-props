@@ -1,4 +1,6 @@
-export default function TopBar() {
+import React from 'react'
+
+const TopBar = () => {
   return (
     <header>
       <h1>
@@ -6,5 +8,7 @@ export default function TopBar() {
       </h1>
       <p>Help me go on a vacation to a beach somewhere!</p>
     </header>
-  );
+  )
 }
+
+export default TopBar
